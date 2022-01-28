@@ -1,0 +1,314 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+header{
+    position: relative;
+}
+.narandzastaslika {
+    width: 100%;
+    height: 600px;
+}
+.narandzastaslika img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.najvisa{
+    display: flex;
+    justify-content: space-between;/* ova linija ne radi kad je absolute */
+   width: 100%;
+    position:absolute;
+    top: 0;
+  
+}
+.navbar{
+    display: flex;
+    
+   }
+ul li{
+       float: left;
+       margin: 1em;
+       list-style: none;
+   }
+.evolve {
+margin-top: 2.2em;
+margin-left: 1em;
+}   
+.navbar i {
+margin-top: 2.2em;
+
+}   
+.navbar {
+    font-size: 1.4rem;
+}
+.donji-heder{
+    position: absolute;
+    
+    top:20%;
+    display: flex;
+    width: 100%;
+    height: 80%;
+}
+.text {
+    width: 35%;
+}
+.sportas{
+    width: 62%;
+    height: 100%;
+}
+.sportas img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.text {
+    margin-left: 1em;
+}
+
+.text button{
+    transform: scale(2);
+    font-family:  Crafty Girls;
+    border-radius: 0%;
+    background-color: transparent;
+   margin-left: 3.2em;
+   border-color: turquoise;
+   transition-duration: 1s;
+   margin-top: 2em;
+   margin-left: 5em;
+
+}
+
+.text button:hover{
+ transform: scale(2.5);
+background-color: white;
+}
+
+/* odavde mozda druga sekcija */
+.naslovi{
+    text-align: center;
+}
+
+.troclani{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-auto-rows: 300px;
+   margin-top: 5em;
+    width: 100% ;
+    
+}
+.troclani div{
+   width:80% ;
+   box-shadow:  3px 3px 5px 6px gray;
+   margin:0 auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   justify-content: center;
+   align-items: center;
+   border-radius: 5%;
+   
+}
+.troclani h4{
+    text-align: center;
+   
+}
+  
+.troclani i{ /* cuvati se podesavanja ovih ikonica */
+    /*text-align: center;*/
+ transform: scale(3);
+ margin-bottom: 4em;
+  /*  margin-top:3em ;
+   margin-left:4em  */ 
+  /*  margin: auto;  nym sto vodje nece auto iygleda da i fata morginu od maina*/ 
+}
+.troclani-button{
+    color: rebeccapurple;
+    margin-top: 6em; 
+     transform: scale(2); 
+    font-family:  Crafty Girls;
+    border-radius: 0%;
+    background-color: transparent;
+    border-color: turquoise;
+    transition-duration: 1s;
+}
+.troclani-button:hover{
+    transform: scale(2.5);
+   background-color: white;
+   }
+   
+.obuhvat-troclanog{
+    display: flex;
+    flex-direction: column;
+     justify-content: space-between; 
+} 
+.batonski{
+    text-align: center;
+}
+.crni{
+    height: 600px;
+    color: white;
+    margin-top: 3em;
+    background-color: black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+}
+.prvaforma{
+    height: 85%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: violet;
+    margin: auto;
+}
+.prvaforma input,.prvaforma button,.prvaforma textarea{
+    width: 80%;
+    border-radius: 10%;
+    height: 30px;
+    background-color: violet;
+}
+.sklek{
+width:65% ;
+/* height: 160%; /* ovo iz nekog razloga ne prima a ako se ostavi bez visine onda se lepo uklapa */ 
+}
+.sklek img{
+    width: 100%;
+    height: 100%;
+
+}
+.dupla{
+    display: flex;
+    justify-content: space-between;
+}
+.forma{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.staljudi{
+    background-image: url("./img/cli.jpg") !important;/* jbg nisam davo klase formama pa ce vodje osta ljubicasto */
+ height: 700px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-bottom: 4em;
+}
+.substaljudi{
+    height: 80%;
+}
+.whatpeople{
+   text-align: center;
+   color:white;
+   
+}
+.beli-text p{
+    width: 70%;
+margin: auto;}
+.beli-text{
+    font-size: 22px;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    background-color: white;
+    color: black;
+    height: 107px;
+    overflow: hidden;
+ 
+  
+}
+.podbelitext{
+    display: grid;
+    grid-template-columns: 100% 100% 100%; /* 100% duzine parenta */
+   transition-property: transform;
+   transition-duration: 0.5s;  /* fenomenalno */
+
+ 
+}
+
+
+.radioforma{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    
+
+}
+.radio{
+    margin-top: 2em;
+}
+.subskrajberska{
+    background-color: darkblue;
+    
+}
+.submulti{
+    width: 70%;
+    height: 70%;
+    text-align: center;
+    margin: auto;
+    color: white;
+}
+.multipurpose{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4em;
+}
+
+.sub{  /*  daklen ovo je absolute od prve relative ali moze da se iskoristi i za ovde za levo */
+    position: absolute;
+    left: 50%;
+    border:solid white 1px;
+   margin-top: 10px;
+    border-radius: 20%;
+    outline:solid white thick;
+    
+}
+.prava{
+    width: 100%;
+    border-top: solid white 1px;
+    font-size: 10px;
+    text-align: center;
+    color: white;
+   
+}
+@media only screen and (max-width: 600px) {
+    .navbar ul {
+     display: flex;
+     flex-direction: column;
+     padding: 5px; /* jupi jea ul se centriraje padingom */
+     margin: 0;
+    }
+    .navbar ul li {
+    margin: 0.3em;
+    }
+    nav button{
+        display:block  !important;
+        width: 40%;
+        margin: auto;
+    }
+  }
+  .togl{
+      
+    text-align: center;
+    margin: 0;
+  }
+  .toglo{
+      
+  
+    margin: 0 auto;
+  }
+  .julov{
+      overflow: hidden;
+      transition-property: height;
+      transition-duration: 0.5s;
+  }
